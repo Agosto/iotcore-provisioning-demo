@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">IoT Core Provisioning</string>
+    <string name="action_settings">Settings</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="rationale">This app needs location services to detect local iot devices.</string>
+    <string name="project_id_prompt">Google Cloud Project:</string>
+    <string name="provision">Provision</string>
+    <string name="update_config">Update Config</string>
+    <string name="flash_led">Flash LED</string>
+    <string name="reset">Reset</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="pick_registry">Pick Device Registry</string>
+    <string name="enter_project_id">Enter your project ID</string>
+    <string name="about">About</string>
+    <string name="project">Project:</string>
+    <string name="registry">Registry:</string>
+    <string name="no_registries_found">No Registries Found</string>
+    <string name="identify">Identify</string>
+
+    <string-array name="config_options">
+        <item>Enable Provisioning Services</item>
+    </string-array>
+
+    <string-array name="sign_out_options">
+        <item>Revoke Access</item>
+    </string-array>
+</resources>

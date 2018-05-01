@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        app:showAsAction="withText"
+          android:id="@+id/action_register"
+          android:orderInCategory="100"
+          android:title="@string/provision"
+          android:icon="@drawable/iot_core"
+          />
+
+    <item
+        app:showAsAction="withText"
+        android:id="@+id/action_config"
+        android:orderInCategory="100"
+        android:title="@string/update_config"
+        android:icon="@drawable/settings"
+        />
+
+    <item
+        app:showAsAction="withText"
+        android:id="@+id/action_identify"
+        android:orderInCategory="100"
+        android:title="@string/identify"
+        android:icon="@drawable/alarm_light"
+        />
+
+    <item
+        app:showAsAction="always|withText"
+        android:id="@+id/action_reset"
+        android:orderInCategory="100"
+        android:title="@string/reset"
+        android:icon="@drawable/lock_reset"
+        />
+</menu>
